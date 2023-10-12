@@ -11,7 +11,7 @@ export function Info({ UserName, Estudent, description }: SocialProps) {
   return (
     <div className="text-center p-5 sm:p-10">
       <>
-        <h2 className="font-bold text-center justify-center text-5xl flex items-center gap-3 before:w-0.5 before:h-8 before:bg-violet-500 before:flex">
+        <h2 className="font-bold text-center justify-center flex items-center gap-3 text-4xl sm:text-5xl before:w-0.5 before:h-8 before:bg-violet-500 before:flex">
           {UserName}
         </h2>
 
