@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export function Header() {
   return (
-    <nav className="py-8 sm:py-8 mb-4 flex justify-between items-center">
+    <nav className="py-8 sm:py-12 mb-10 p-5 sm:p-10 flex justify-between items-center">
       <span className="text-xl sm:text-2xl text-violet-500 hover:text-white font-bold">
         {'<'}
         <strong className="text-white text-sm md:text-base lg:text-lg hover:text-violet-500 cursor-pointer font-normal">

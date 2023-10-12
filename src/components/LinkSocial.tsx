@@ -11,7 +11,7 @@ import {
 
 export function LinkSocial() {
   return (
-    <div className="text-5xl flex justify-center gap-7 sm:gap-14 py-3 text-gray-600 md:text-6xl">
+    <div className="text-5xl flex justify-center gap-7 sm:gap-14 py-4 text-gray-600 md:text-6xl">
       <Link href="https://github.com/Jones-bass" target="_blank">
         <GithubLogo
           weight="light"
