@@ -55,10 +55,13 @@ export function Header() {
         </li>
 
         <li className="text-white hover:text-violet-700">
-          <a className="bg-violet-500 px-4 sm:px-4 py-2 rounded-md sm:ml-8 flex items-center gap-2 md:gap-4 hover:border hover:border-dashed hover:border-violet-500 hover:bg-white hover:text-violet-700 shadow-lg border">
+          <Link
+            href="/resume"
+            className="bg-violet-500 px-4 sm:px-4 py-2 rounded-md sm:ml-8 flex items-center gap-2 md:gap-4 hover:border hover:border-dashed hover:border-violet-500 hover:bg-white hover:text-violet-700 shadow-lg border"
+          >
             <File size={20} />
             Currículo
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

@@ -20,7 +20,7 @@ export function LinkSocial() {
         />
       </Link>
 
-      <Link href="https://www.linkedin.com/in/renan-fachin/" target="_blank">
+      <Link href="https://www.linkedin.com/in/jonessouza/" target="_blank">
         <LinkedinLogo
           weight="light"
           aria-label="Jones Souza linkedin"
@@ -39,7 +39,7 @@ export function LinkSocial() {
       <Link href="https://wa.me/5579999591921" target="_blank">
         <WhatsappLogo
           weight="light"
-          aria-label="Jones Souza Instagram"
+          aria-label="Jones Souza Whatsapp"
           className="cursor-pointer hover:text-violet-800 hover:scale-150 transition-all"
         />
       </Link>
@@ -51,7 +51,7 @@ export function LinkSocial() {
       >
         <Envelope
           weight="light"
-          aria-label="Jones Souza Instagram"
+          aria-label="Jones Souza Email"
           className="cursor-pointer hover:text-violet-800 hover:scale-150 transition-all"
         />
       </Link>
