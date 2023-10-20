@@ -16,8 +16,8 @@ import Link from 'next/link'
 
 export default function Bio() {
   return (
-    <div className="bg-slate-900 text-slate-100">
-      <section className="relative">
+    <aside className="w-min flex flex-col gap-8 px-5 py-8 bg-slate-900 text-slate-100">
+      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <div className="grid gap-12 py-4 px-4">
           <div className="grid gap-x-3 gap-y-3 text-center">
             <img
@@ -71,7 +71,7 @@ export default function Bio() {
         </div>
       </section>
 
-      <section className="py-4 px-4">
+      <section className=" items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
           REDES SOCIAIS
         </h2>
@@ -113,9 +113,9 @@ export default function Bio() {
         </div>
       </section>
 
-      <section className="py-4 px-4">
+      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">BIO</h2>
-        <p className="text-justify">
+        <p className="text-justify mb-2 sm:text-lg  md:text-1xl">
           Cursando Análise e Desenvolvimento de Sistemas pela Faculdade Estacio,
           certificados pela Rocketseat, Origamid e a Digital Innovation One, RL
           System, alguns bootcamp de especialização. Buscando uma experiência de
@@ -124,7 +124,7 @@ export default function Bio() {
         </p>
       </section>
 
-      <section className="py-4 px-4">
+      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
           FORMAÇÃO
         </h2>
@@ -132,7 +132,7 @@ export default function Bio() {
         <div className="flex mt-1">
           <div className="mt-1 pr-3">
             <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-            <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+            <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
           </div>
 
           <div className="px-4 grid">
@@ -147,9 +147,8 @@ export default function Bio() {
         <div className="flex mt-1">
           <div className="mt-1.5 pr-3">
             <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-            <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+            <span className="block w-1 h-[100%] bg-slate-300 transform translate-x-1.5"></span>
           </div>
-
           <div className="px-4 grid">
             <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
               Desenvolvimento Front - End e Back - End
@@ -159,6 +158,6 @@ export default function Bio() {
           </div>
         </div>
       </section>
-    </div>
+    </aside>
   )
 }

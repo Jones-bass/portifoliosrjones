@@ -1,18 +1,21 @@
 'use client'
 
 import Bio from '@/components/Bio'
+import Projects from '@/components/Projects'
+import { motion } from 'framer-motion'
 
 export default function Resume() {
   return (
-    <div className="max-w-5xl w-full mx-auto px-6 lg:px-0 flex">
-      <div className="grid grid-cols-2 bg-container-color shadow-md">
+    <motion.section
+      className="min-h-screen"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.4, duration: 0.9 }}
+    >
+      <div className="flex p-2 bg-slate-900">
         <Bio />
+        <Projects />
       </div>
-      <div className="bg-red-400 bg-container-color shadow-md">
-        PROJETOS
-        <span>Faculdade Estacio</span>
-        <span>2023 - Cursando</span>
-      </div>
-    </div>
+    </motion.section>
   )
 }
