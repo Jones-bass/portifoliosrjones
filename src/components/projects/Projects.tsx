@@ -3,21 +3,17 @@
 import { GithubLogo } from '@phosphor-icons/react'
 import Link from 'next/link'
 
-export default function Projects() {
+export default function ProjectsCards() {
   return (
-    <section className="text-slate-100 items-center gap-2 rounded-lg px-3 py-8 shadow-sm">
-      <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
-        PROJETOS
-      </h2>
-
+    <section>
       <div className="flex mt-1">
-        <div className="mt-1 pr-3">
+        <div className="mt-2 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
           <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
 
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             tailwind-next
           </h3>
           <span className="text-sm sm:text-lg">
@@ -43,12 +39,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             desafios_python
           </h3>
           <span>
@@ -73,12 +69,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             allCopier
           </h3>
           <span>
@@ -105,14 +101,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
-            coffe
-          </h3>
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">coffe</h3>
           <span>
             Desafio da Rocketseat | o intuito é um projeto E-Commerce com
             animações e formulário de endereço | Front - End eu uso Framework
@@ -135,12 +129,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             contagemFilho
           </h3>
           <span>
@@ -166,12 +160,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             igniteCall-Rocketseat
           </h3>
           <span>
@@ -196,12 +190,12 @@ export default function Projects() {
       </div>
 
       <div className="flex mt-1">
-        <div className="mt-1.5 pr-3">
+        <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[110%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[98%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
-          <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
+          <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             pokedexDIO
           </h3>
           <span>
