@@ -20,7 +20,7 @@ export default function Projects() {
           <h3 className="font-bold mb-4 text-xl sm:text-1xl  md:text-2xl">
             tailwind-next
           </h3>
-          <span>
+          <span className="text-sm sm:text-lg">
             Projeto da Rocketseat com o intuito de o conhecer o Tailwind CSS
             como Responsive | Dark Theme | Label trigger | all inputs |
             Animations
@@ -33,9 +33,10 @@ export default function Projects() {
               className="flex text-center items-center gap-2"
             >
               <GithubLogo weight="thin" aria-label="Jones Souza Github" />
-              <p className="text-lg">
-                <span>2023 - Tailwind CSS | Next </span>
-              </p>
+
+              <span className="text-sm sm:text-lg">
+                2023 - Tailwind CSS | Next
+              </span>
             </Link>
           </span>
         </div>

@@ -12,7 +12,7 @@ export default function Resume() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.4, duration: 0.9 }}
     >
-      <div className="flex p-2 bg-slate-900">
+      <div className="lg:flex lg:grid-cols-app p-2 bg-slate-900 md:grid">
         <Bio />
         <Projects />
       </div>

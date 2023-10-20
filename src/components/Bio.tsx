@@ -16,7 +16,7 @@ import Link from 'next/link'
 
 export default function Bio() {
   return (
-    <aside className="w-min flex flex-col gap-8 px-5 py-8 bg-slate-900 text-slate-100">
+    <aside className="w-full sm:w-1/1 flex flex-col gap-8 px-5 py-8 bg-slate-900 text-slate-100">
       <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <div className="grid gap-12 py-4 px-4">
           <div className="grid gap-x-3 gap-y-3 text-center">
@@ -42,7 +42,7 @@ export default function Bio() {
                   weight="thin"
                   className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500"
                 />
-                <p className="text-lg"> Tobias Barreto, SE</p>
+                <p className="text-sm sm:text-lg"> Tobias Barreto, SE</p>
               </Link>
             </span>
             <span className="flex cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
@@ -53,7 +53,7 @@ export default function Bio() {
                 className="flex text-center items-center gap-2"
               >
                 <Envelope weight="thin" aria-label="Jones Souza Email" />
-                <p className="text-lg"> jonesbass.tb@gmail.com</p>
+                <p className="text-sm sm:text-lg"> jonesbass.tb@gmail.com</p>
               </Link>
             </span>
             <span className="flex cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
@@ -64,7 +64,7 @@ export default function Bio() {
                 className="flex text-center items-center gap-2"
               >
                 <WhatsappLogo weight="thin" aria-label="Jones Souza Whatsapp" />
-                <p className="text-lg"> 79 9 9959-1921</p>
+                <p className="text-sm sm:text-lg"> 79 9 9959-1921</p>
               </Link>
             </span>
           </div>
@@ -84,7 +84,7 @@ export default function Bio() {
               className="flex text-center items-center gap-2"
             >
               <GithubLogo weight="thin" aria-label="Jones Souza Github" />
-              <p className="text-lg"> jones-bass</p>
+              <p className="text-sm sm:text-lg"> jones-bass</p>
             </Link>
           </span>
           <span className="flex cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
@@ -95,7 +95,7 @@ export default function Bio() {
               className="flex text-center items-center gap-2"
             >
               <LinkedinLogo weight="thin" aria-label="Jones Souza Linkedin" />
-              <p className="text-lg"> jonessouza</p>
+              <p className="text-sm sm:text-lg"> jonessouza</p>
             </Link>
           </span>
 
@@ -107,7 +107,7 @@ export default function Bio() {
               className="flex text-center items-center gap-2"
             >
               <InstagramLogo weight="thin" aria-label="Jones Souza Instagram" />
-              <p className="text-lg"> jonesbass_</p>
+              <p className="text-sm sm:text-lg"> jonesbass_</p>
             </Link>
           </span>
         </div>
