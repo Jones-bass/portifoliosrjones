@@ -1,7 +1,7 @@
 'use client'
 
-import Bio from '@/components/Bio'
 import Projects from '@/components/projects'
+import Bio from '@/components/projects/Bio'
 import { motion } from 'framer-motion'
 
 export default function Resume() {

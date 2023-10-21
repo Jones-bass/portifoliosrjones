@@ -1,15 +1,15 @@
 'use client'
 
-import { GithubLogo } from '@phosphor-icons/react'
 import Link from 'next/link'
+import { AiOutlineGithub } from 'react-icons/ai'
 
 export default function ProjectsCards() {
   return (
     <section>
-      <div className="flex mt-1">
+      <div className="flex">
         <div className="mt-2 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[120%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
 
         <div className="px-4 grid">
@@ -28,7 +28,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
               <span className="text-sm sm:text-lg">
                 2023 - Tailwind CSS | Next
@@ -38,10 +38,10 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[120%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
         <div className="px-4 grid">
           <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
@@ -59,7 +59,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2023 - Exercicios em Python</span>
               </p>
@@ -68,7 +68,7 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
           <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
@@ -91,7 +91,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2022 à 2023 - AllCopier</span>
               </p>
@@ -100,7 +100,7 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
           <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
@@ -119,7 +119,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2023 - Coffe</span>
               </p>
@@ -128,7 +128,7 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
           <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
@@ -150,7 +150,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2022 à 2023 - contagemFilho</span>
               </p>
@@ -159,7 +159,7 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
           <span className="block w-1 h-[115%] bg-slate-300 transform translate-x-1.5"></span>
@@ -180,7 +180,7 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2023 - igniteCall-Rocketseat</span>
               </p>
@@ -189,11 +189,12 @@ export default function ProjectsCards() {
         </div>
       </div>
 
-      <div className="flex mt-1">
+      <div className="flex mt-2">
         <div className="mt-2.5 pr-3">
           <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
-          <span className="block w-1 h-[98%] bg-slate-300 transform translate-x-1.5"></span>
+          <span className="block w-1 h-[93%] bg-slate-300 transform translate-x-1.5"></span>
         </div>
+
         <div className="px-4 grid">
           <h3 className="font-bold text-xl sm:text-1xl  md:text-2xl">
             pokedexDIO
@@ -204,6 +205,7 @@ export default function ProjectsCards() {
             Javascript envolvendo a PokeApi fazendo requisições, buscando dados
             da API, estilizaçãoes com muito CSS dinamicos, animações e muito.
           </span>
+
           <span className="flex cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
             <Link
               href="https://github.com/Jones-bass/pokedexDIO"
@@ -211,13 +213,16 @@ export default function ProjectsCards() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
               <p className="text-lg">
                 <span>2023 - pokedexDIO</span>
               </p>
             </Link>
           </span>
         </div>
+      </div>
+      <div className="mt-[-3%] pr-3">
+        <span className="absolute inline-block w-4 h-4 bg-slate-300 rounded-full"></span>
       </div>
     </section>
   )

@@ -1,11 +1,11 @@
 'use client'
 
-import { GithubLogo } from '@phosphor-icons/react'
 import Link from 'next/link'
+import { AiOutlineGithub } from 'react-icons/ai'
 
 export default function Events() {
   return (
-    <section className="p-2">
+    <section className="mt-8 p-2">
       <h2 className="font-bold mt-2 text-xl sm:text-2xl md:text-3xl">
         Eventos
       </h2>
@@ -19,9 +19,13 @@ export default function Events() {
               href="https://github.com/Jones-bass/nlw-IA"
               target="_blank"
               rel="noreferrer"
-              className="flex text-center items-center gap-2"
+              className="flex text-center items-center gap-1"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub
+                size={20}
+                weight="thin"
+                aria-label="Jones Souza Github"
+              />
 
               <span className="text-sm sm:text-lg">Repositório</span>
             </Link>
@@ -36,9 +40,9 @@ export default function Events() {
               href="https://github.com/Jones-bass/SpacetimeNlw-"
               target="_blank"
               rel="noreferrer"
-              className="flex text-center items-center gap-2"
+              className="flex text-center items-center gap-1"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
               <span className="text-sm sm:text-lg">Repositório</span>
             </Link>
@@ -53,9 +57,9 @@ export default function Events() {
               href="https://github.com/Jones-bass/letmeask-app"
               target="_blank"
               rel="noreferrer"
-              className="flex text-center items-center gap-2"
+              className="flex text-center items-center gap-1"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
               <span className="text-sm sm:text-lg">Repositório</span>
             </Link>
@@ -72,9 +76,9 @@ export default function Events() {
               href="https://github.com/Jones-bass/nlwcoparocketseat"
               target="_blank"
               rel="noreferrer"
-              className="flex text-center items-center gap-2"
+              className="flex text-center items-center gap-1"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
               <span className="text-sm sm:text-lg">Repositório</span>
             </Link>
@@ -84,14 +88,14 @@ export default function Events() {
         <div className="py-2">
           <h3 className="text-xl sm:text-1xl  md:text-2xl">heatdowhile</h3>
 
-          <span className="flex cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
+          <span className="flex text-center itens-center cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
             <Link
               href="https://github.com/Jones-bass/heatdowhile"
               target="_blank"
               rel="noreferrer"
-              className="flex text-center items-center gap-2"
+              className="flex text-center items-center gap-1"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
               <span className="text-sm sm:text-lg">Repositório</span>
             </Link>

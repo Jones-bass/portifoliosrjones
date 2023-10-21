@@ -4,13 +4,14 @@
 'use client'
 
 import {
-  Envelope,
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  MapPin,
-  WhatsappLogo,
-} from '@phosphor-icons/react'
+  AiOutlineGithub,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+  AiOutlineWhatsApp,
+} from 'react-icons/ai'
+
+import { BiMap } from 'react-icons/bi'
 
 import Link from 'next/link'
 
@@ -38,10 +39,7 @@ export default function Bio() {
                 rel="noreferrer"
                 className="flex text-center items-center gap-2"
               >
-                <MapPin
-                  weight="thin"
-                  className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500"
-                />
+                <BiMap className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500" />
                 <p className="text-sm sm:text-lg"> Tobias Barreto, SE</p>
               </Link>
             </span>
@@ -52,7 +50,7 @@ export default function Bio() {
                 rel="noreferrer"
                 className="flex text-center items-center gap-2"
               >
-                <Envelope weight="thin" aria-label="Jones Souza Email" />
+                <AiOutlineMail aria-label="Jones Souza Email" />
                 <p className="text-sm sm:text-lg"> jonesbass.tb@gmail.com</p>
               </Link>
             </span>
@@ -63,7 +61,7 @@ export default function Bio() {
                 rel="noreferrer"
                 className="flex text-center items-center gap-2"
               >
-                <WhatsappLogo weight="thin" aria-label="Jones Souza Whatsapp" />
+                <AiOutlineWhatsApp aria-label="Jones Souza Whatsapp" />
                 <p className="text-sm sm:text-lg"> 79 9 9959-1921</p>
               </Link>
             </span>
@@ -83,7 +81,7 @@ export default function Bio() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <GithubLogo weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub weight="thin" aria-label="Jones Souza Github" />
               <p className="text-sm sm:text-lg"> jones-bass</p>
             </Link>
           </span>
@@ -94,7 +92,7 @@ export default function Bio() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <LinkedinLogo weight="thin" aria-label="Jones Souza Linkedin" />
+              <AiOutlineLinkedin aria-label="Jones Souza Linkedin" />
               <p className="text-sm sm:text-lg"> jonessouza</p>
             </Link>
           </span>
@@ -106,7 +104,7 @@ export default function Bio() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <InstagramLogo weight="thin" aria-label="Jones Souza Instagram" />
+              <AiOutlineInstagram aria-label="Jones Souza Instagram" />
               <p className="text-sm sm:text-lg"> jonesbass_</p>
             </Link>
           </span>
@@ -152,10 +150,10 @@ export default function Bio() {
         </h2>
 
         <div className="grid">
-          <h3 className="text-xl sm:text-1xl">Adobe PhotoShop</h3>
-          <h3 className="text-xl sm:text-1xl">Adobe Premier</h3>
-          <h3 className="text-xl sm:text-1xl">Adobe After Effect</h3>
-          <h3 className="text-xl sm:text-1xl">Corel Draw</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Adobe PhotoShop</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Adobe Premier</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Adobe After Effect</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Corel Draw</h3>
         </div>
       </section>
     </aside>

@@ -1,4 +1,6 @@
-import { InstagramLogo, LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
+import { BsGithub } from 'react-icons/bs'
+import { AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
+
 import { File } from '@phosphor-icons/react/dist/ssr/File'
 import Link from 'next/link'
 
@@ -21,8 +23,8 @@ export function Header() {
             aria-label="Jones Souza Github"
             rel="noreferrer"
           >
-            <GithubLogo
-              weight="thin"
+            <BsGithub
+              size={20}
               className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500"
             />
           </Link>
@@ -34,10 +36,7 @@ export function Header() {
             aria-label="Jones Souza Likedin"
             rel="noreferrer"
           >
-            <LinkedinLogo
-              weight="thin"
-              className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500"
-            />
+            <AiFillLinkedin className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500" />
           </Link>
         </li>
         <li>
@@ -47,8 +46,8 @@ export function Header() {
             aria-label="Jones Souza Instagram"
             rel="noreferrer"
           >
-            <InstagramLogo
-              weight="thin"
+            <AiFillInstagram
+              size={25}
               className="cursor-pointer text-xl sm:text-2xl hover:text-violet-500"
             />
           </Link>

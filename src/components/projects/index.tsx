@@ -2,6 +2,7 @@
 
 import Events from './Events'
 import ProjectsCards from './Projects'
+import Skills from './skills'
 
 export default function Projects() {
   return (
@@ -12,6 +13,7 @@ export default function Projects() {
 
       <ProjectsCards />
       <Events />
+      <Skills />
     </section>
   )
 }
