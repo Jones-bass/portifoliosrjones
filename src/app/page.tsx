@@ -1,4 +1,4 @@
-import { UserSection } from '@/components/UserSection'
+import { UserSection } from '@/components/userPage/UserSection'
 
 export default function Home() {
   return (
