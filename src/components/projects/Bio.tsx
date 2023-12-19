@@ -150,8 +150,8 @@ export default function Bio() {
         </h2>
 
         <div className="grid">
-          <h3 className="text-xl sm:text-1xl">✔ Adobe PhotoShop</h3>
-          <h3 className="text-xl sm:text-1xl">✔ Adobe Premier</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Adobe Photoshop</h3>
+          <h3 className="text-xl sm:text-1xl">✔ Adobe Premiere</h3>
           <h3 className="text-xl sm:text-1xl">✔ Adobe After Effect</h3>
           <h3 className="text-xl sm:text-1xl">✔ Corel Draw</h3>
         </div>
