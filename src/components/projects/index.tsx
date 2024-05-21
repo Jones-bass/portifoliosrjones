@@ -1,13 +1,30 @@
 'use client'
 
-import { useState } from 'react'
-import Skills from './skills'
-import { projetcInfo } from '@/utils/projetcInfo'
-import ProjectCards from './ProjectCards'
-import Events from '../event/Events'
+import { useEffect, useState } from 'react'
+import ProjectCards, { RepositoryItemPropos } from './ProjectCards'
+import { api } from '../../services/api'
+import { toast } from 'react-toastify'
 
 export default function Projects() {
-  const [CardInfoProjects] = useState(projetcInfo)
+  const [loading, setLoading] = useState(true)
+  const [repositories, setRepositories] = useState<RepositoryItemPropos[]>([])
+
+  useEffect(() => {
+    const fetchRepositories = async () => {
+      try {
+        const response = await api.get('/users/jones-bass/repos?sort=update')
+
+        const data: RepositoryItemPropos[] = response.data
+        setRepositories(data)
+      } catch (error) {
+        toast.error('Failed to fetch repositories!')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchRepositories()
+  }, [])
 
   return (
     <section className="text-slate-100 items-center gap-2 rounded-lg px-3 py-8 shadow-sm">
@@ -15,22 +32,15 @@ export default function Projects() {
         PROJETOS
       </h2>
 
-      <div>
-        {CardInfoProjects.map((item) => {
-          return (
-            <ProjectCards
-              key={item.id}
-              nameRepor={item.nameRepor}
-              yearRepor={item.yearRepor}
-              urlRepor={item.urlRepor}
-              content={item.content}
-            />
-          )
-        })}
-      </div>
-
-      <Events />
-      <Skills />
+      {loading ? (
+        <div className="text-center">Loading...</div>
+      ) : (
+        <div>
+          {repositories.map((item) => (
+            <ProjectCards repository={item} key={item.name} />
+          ))}
+        </div>
+      )}
     </section>
   )
 }

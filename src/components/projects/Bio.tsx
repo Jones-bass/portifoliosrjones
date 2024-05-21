@@ -14,6 +14,8 @@ import {
 import { BiMap } from 'react-icons/bi'
 
 import Link from 'next/link'
+import Events from '../event/Events'
+import Skills from './skills'
 
 export default function Bio() {
   return (
@@ -81,7 +83,7 @@ export default function Bio() {
               rel="noreferrer"
               className="flex text-center items-center gap-2"
             >
-              <AiOutlineGithub weight="thin" aria-label="Jones Souza Github" />
+              <AiOutlineGithub height="thin" aria-label="Jones Souza Github" />
               <p className="text-sm sm:text-lg"> jones-bass</p>
             </Link>
           </span>
@@ -155,6 +157,12 @@ export default function Bio() {
           <h3 className="text-xl sm:text-1xl">✔ Adobe After Effect</h3>
           <h3 className="text-xl sm:text-1xl">✔ Corel Draw</h3>
         </div>
+      </section>
+      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
+        <Events />
+      </section>
+      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
+        <Skills />
       </section>
     </aside>
   )

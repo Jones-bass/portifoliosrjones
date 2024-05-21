@@ -35,7 +35,7 @@ export function LinkSocial() {
 
       <Link href="https://wa.me/5579999591921" target="_blank">
         <AiOutlineWhatsApp
-          weight="light"
+          height="light"
           aria-label="Jones Souza Whatsapp"
           className="cursor-pointer hover:text-violet-800 hover:scale-150 transition-all"
         />
@@ -47,7 +47,7 @@ export function LinkSocial() {
         rel="noreferrer"
       >
         <AiOutlineMail
-          weight="light"
+          height="light"
           aria-label="Jones Souza Email"
           className="cursor-pointer hover:text-violet-800 hover:scale-150 transition-all"
         />
