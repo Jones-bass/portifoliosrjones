@@ -31,16 +31,17 @@ export default function Projects() {
       <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
         PROJETOS
       </h2>
-
-      {loading ? (
-        <div className="text-center">Loading...</div>
-      ) : (
-        <div>
-          {repositories.map((item) => (
-            <ProjectCards repository={item} key={item.name} />
-          ))}
-        </div>
-      )}
+      <div className="flex flex-col scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 h-auto max-h-[120vw] overflow-y-scroll">
+        {loading ? (
+          <div className="text-center">Loading...</div>
+        ) : (
+          <div>
+            {repositories.map((item) => (
+              <ProjectCards repository={item} key={item.name} />
+            ))}
+          </div>
+        )}
+      </div>
     </section>
   )
 }

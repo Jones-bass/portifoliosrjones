@@ -11,12 +11,12 @@ import {
 
 export default function Skills() {
   return (
-    <section className="p-2 mt-8">
+    <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
       <h2 className="font-bold mt-2 text-xl sm:text-2xl md:text-3xl">
         Habilidades e Conhecimentos
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-3 gap-4 py-2">
         <span className="flex text-center items-center gap-2 cursor-pointer text-xl sm:text-2xl hover:text-slate-300">
           <BiLogoReact height="thin" aria-label="Jones Souza Instagram" />
           <p className="text-sm sm:text-lg"> React</p>

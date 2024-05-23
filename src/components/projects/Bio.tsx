@@ -19,7 +19,7 @@ import Skills from './skills'
 
 export default function Bio() {
   return (
-    <aside className="w-full sm:w-1/1 flex flex-col gap-8 px-5 py-8 bg-slate-900 text-slate-100">
+    <aside className="w-full sm:w-1/1 flex flex-col gap-8 px-4 py-8 bg-slate-900 text-slate-100">
       <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm">
         <div className="grid gap-12 py-4">
           <div className="grid gap-x-3 gap-y-3 text-center">
@@ -147,7 +147,7 @@ export default function Bio() {
       </section>
 
       <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
-        <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
+        <h2 className="font-bold mb-2 text-xl sm:text-2xl md:text-3xl">
           HABILIDADES ADCIONAIS
         </h2>
 
@@ -158,12 +158,8 @@ export default function Bio() {
           <h3 className="text-xl sm:text-1xl">✔ Corel Draw</h3>
         </div>
       </section>
-      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
-        <Events />
-      </section>
-      <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
-        <Skills />
-      </section>
+      <Events />
+      <Skills />
     </aside>
   )
 }
