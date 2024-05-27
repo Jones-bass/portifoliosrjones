@@ -10,6 +10,7 @@ export interface RepositoryItemPropos {
   language: string
   html_url: string
   created_at: string
+  description: string
 }
 
 interface RepositoryProps {
@@ -31,6 +32,8 @@ export default function ProjectCards({ repository }: RepositoryProps) {
             <h3 className="font-bold text-xl sm:text-2xl mb-1">
               {repository.name}
             </h3>
+            <span>{repository.description}</span>
+
             <div className="flex items-center mb-1">
               <h4 className="text-md mr-2">Linguagem: {repository.language}</h4>
               <span className="text-sm text-gray-500">{formattedDate}</span>

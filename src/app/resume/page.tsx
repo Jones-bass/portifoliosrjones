@@ -1,7 +1,7 @@
 'use client'
 
-import Projects from '@/components/projects'
-import Bio from '@/components/projects/Bio'
+import PageProjects from '@/components'
+import Bio from '../../components/bio/Bio'
 import { motion } from 'framer-motion'
 
 export default function Resume() {
@@ -14,7 +14,7 @@ export default function Resume() {
     >
       <div className="lg:flex lg:grid-cols-app p-2 bg-slate-900 md:grid">
         <Bio />
-        <Projects />
+        <PageProjects />
       </div>
     </motion.section>
   )

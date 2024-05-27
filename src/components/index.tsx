@@ -1,11 +1,11 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import ProjectCards, { RepositoryItemPropos } from './ProjectCards'
-import { api } from '../../services/api'
+import { api } from '../services/api'
 import { toast } from 'react-toastify'
+import ProjectCards, { RepositoryItemPropos } from './projects/ProjectCards'
 
-export default function Projects() {
+export default function PageProjects() {
   const [loading, setLoading] = useState(true)
   const [repositories, setRepositories] = useState<RepositoryItemPropos[]>([])
 
@@ -31,7 +31,7 @@ export default function Projects() {
       <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
         PROJETOS
       </h2>
-      <div className="flex flex-col scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 h-auto max-h-[120vw] overflow-y-scroll">
+      <div className="flex flex-col scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 h-auto max-h-[125vw] overflow-y-scroll">
         {loading ? (
           <div className="text-center">Loading...</div>
         ) : (
