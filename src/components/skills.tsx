@@ -23,7 +23,7 @@ export default function Skills({ habilidades, titleHabilidades }: SkillsProps) {
         {habilidades.map((skill, index) => (
           <span
             key={index}
-            className="flex text-center items-center gap-2 cursor-pointer text-xl sm:text-2xl hover:text-slate-300"
+            className="flex text-center items-center gap-2 cursor-pointer text-xl sm:text-2xl text-gray-700 hover:text-violet-500"
           >
             <skill.icon height="thin" aria-label={skill.name} />
             <p className="text-sm sm:text-lg">{skill.name}</p>

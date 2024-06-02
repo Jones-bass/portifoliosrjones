@@ -13,7 +13,7 @@ export function EventCard({ nameRepor, urlRepor, repor }: EventInfoProps) {
       <div className="py-2">
         <h3 className="text-xl sm:text-1xl  md:text-2xl">{nameRepor}</h3>
 
-        <span className="flex text-center itens-center cursor-pointer text-xl sm:text-2xl hover:text-violet-500">
+        <span className="flex text-center itens-center cursor-pointer text-xl sm:text-2xl text-gray-700 hover:text-violet-500">
           <Link
             href={urlRepor}
             target="_blank"
@@ -22,7 +22,9 @@ export function EventCard({ nameRepor, urlRepor, repor }: EventInfoProps) {
           >
             <AiOutlineGithub size={20} aria-label="Jones Souza Github" />
 
-            <span className="text-sm sm:text-lg">{repor}</span>
+            <span className="text-sm sm:text-lg text-gray-700 hover:text-violet-500">
+              {repor}
+            </span>
           </Link>
         </span>
       </div>

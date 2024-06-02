@@ -11,7 +11,7 @@ export default function Events({ title }: props) {
   const [CardInfoEvents] = useState(eventInfo)
 
   return (
-    <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 shadow-sm">
+    <section className="items-center gap-2 rounded-lg border text-zinc-300 border-zinc-300 px-3 shadow-sm">
       <h2 className="font-bold mt-2 text-xl sm:text-2xl md:text-3xl">
         {title}
       </h2>

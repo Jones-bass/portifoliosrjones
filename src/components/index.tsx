@@ -1,5 +1,3 @@
-'use client'
-
 import { useEffect, useState } from 'react'
 import { api } from '../services/api'
 import { toast } from 'react-toastify'
@@ -28,10 +26,10 @@ export default function PageProjects() {
 
   return (
     <section className="text-slate-100 items-center gap-2 rounded-lg px-3 py-8 shadow-sm">
-      <h2 className="font-bold mb-2 text-xl sm:text-2xl  md:text-3xl">
+      <h2 className="font-bold mb-2 text-xl sm:text-2xl md:text-3xl text-zinc-200">
         PROJETOS
       </h2>
-      <div className="flex flex-col scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 h-auto max-h-[125vw] overflow-y-scroll">
+      <div className="flex flex-col pe-4 h-auto max-h-[134vw] overflow-y-scroll custom-scrollbar">
         {loading ? (
           <div className="text-center">Loading...</div>
         ) : (

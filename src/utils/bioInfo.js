@@ -23,7 +23,7 @@ export const bioInfo = [
       },
       {
         titleEducation: 'Desenvolvimento Front - End e Back - End',
-        institution: 'Rocketseat',
+        institution: 'Digital Innovation One - DIO',
         period: '2021 - 2023 - Cursando',
       },
     ],
