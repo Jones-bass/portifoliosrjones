@@ -22,16 +22,22 @@ import {
   BiLogoTailwindCss,
   BiLogoTypescript,
   BiMap,
+  BiLogoAngular,
+  BiLogoDocker,
+  BiLogoJava
 } from 'react-icons/bi'
 import Skills, { Skill } from '../skills'
 
 const skillsData: Skill[] = [
   { name: 'React', icon: BiLogoReact },
-  { name: 'NodeJS', icon: BiLogoNodejs },
+  { name: 'Angular', icon: BiLogoAngular },
   { name: 'JavaScript', icon: BiLogoJavascript },
   { name: 'TypeScript', icon: BiLogoTypescript },
   { name: 'Python', icon: BiLogoPython },
   { name: 'TailwindCSS', icon: BiLogoTailwindCss },
+  { name: 'Docker', icon: BiLogoDocker },
+  { name: 'NodeJS', icon: BiLogoNodejs },
+  { name: 'Java', icon: BiLogoJava },
 ]
 
 interface Habilidades {

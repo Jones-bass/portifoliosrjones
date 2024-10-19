@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
-import { api } from '../services/api'
 import { toast } from 'react-toastify'
+import { api } from '../services/api'
+
 import ProjectCards, { RepositoryItemPropos } from './projects/ProjectCards'
+import { LoadingProjetcts } from './LoadingProjects'
 
 export default function PageProjects() {
   const [loading, setLoading] = useState(true)
@@ -29,9 +31,9 @@ export default function PageProjects() {
       <h2 className="font-bold mb-2 text-xl sm:text-2xl md:text-3xl text-zinc-200">
         PROJETOS
       </h2>
-      <div className="flex flex-col pe-4 h-auto max-h-[134vw] overflow-y-scroll custom-scrollbar">
+      <div className="flex flex-col pe-4 h-auto max-h-[137vw] overflow-y-scroll custom-scrollbar">
         {loading ? (
-          <div className="text-center">Loading...</div>
+          <LoadingProjetcts />
         ) : (
           <div>
             {repositories.map((item) => (
