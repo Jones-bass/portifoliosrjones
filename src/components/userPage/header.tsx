@@ -81,7 +81,8 @@ export function Header() {
           >
             {loading ? (
               <div className="flex items-center">
-                <ReloadIcon className="mr-2 h-4 w-4 animate-spin" /> Loading
+                <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />{' '}
+                Currículo...
               </div>
             ) : (
               <div className="flex items-center gap-2">

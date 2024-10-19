@@ -15,11 +15,11 @@ export function UserSection() {
 
       <Info
         UserName={'Jones Souza'}
-        Estudent={'Estudante em Desenvolvedor Front-End e Back-End'}
+        Estudent={'Desenvolvedor FullStack Junior'}
         description={`Cursando Análise e Desenvolvimento de Sistemas na Faculdade Estacio, 
-        certificado pela Rocketseat, Origamid e a Digital Innovation One, alguns bootcamp de especialização.
+        certificado pela Rocketseat, Origamid e a Digital Innovation One, participando de alguns bootcamp de especialização técnicas.
         Buscando uma experiência de estágio ou desenvolvedor JR. com foco em Front-End.
-        Experiência com tecnologias: HTML, CSS, Javascript, Typescript, TailwindCSS, ReactJS e NodeJS.`}
+        Experiência com tecnologias: HTML, CSS, Javascript, Typescript, Angular, ReactJS, TailwindCSS e NodeJS.`}
       />
     </motion.section>
   )

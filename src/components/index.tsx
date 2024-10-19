@@ -27,7 +27,7 @@ export default function PageProjects() {
   }, [])
 
   return (
-    <section className="text-slate-100 items-center gap-2 rounded-lg px-3 py-8 shadow-sm">
+    <section className="text-slate-100 items-center gap-2 rounded-lg px-3 py-8 shadow-sm relative z-10">
       <h2 className="font-bold mb-2 text-xl sm:text-2xl md:text-3xl text-zinc-200">
         PROJETOS
       </h2>
