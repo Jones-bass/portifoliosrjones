@@ -24,7 +24,7 @@ import {
   BiMap,
   BiLogoAngular,
   BiLogoDocker,
-  BiLogoJava
+  BiLogoJava,
 } from 'react-icons/bi'
 import Skills, { Skill } from '../skills'
 
