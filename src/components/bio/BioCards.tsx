@@ -125,7 +125,6 @@ export default function BioCard({
           </div>
         </section>
 
-        {/* REDES SOCIAIS */}
         <section className="rounded-lg border border-zinc-700 px-4 py-6 shadow-sm">
           <h2 className="font-semibold tracking-wide mb-4 text-lg sm:text-xl">
             REDES SOCIAIS
@@ -164,7 +163,6 @@ export default function BioCard({
           </div>
         </section>
 
-        {/* BIO */}
         <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
           <h2 className="font-semibold tracking-wide mb-3 text-lg sm:text-xl">
             BIO
@@ -174,8 +172,6 @@ export default function BioCard({
           </p>
         </section>
 
-
-        {/* FORMAÇÃO */}
         <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
           <h2 className="font-semibold tracking-wide mb-4 text-lg sm:text-xl">
             FORMAÇÃO
@@ -196,7 +192,6 @@ export default function BioCard({
           ))}
         </section>
 
-
         <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
           <h2 className="font-semibold tracking-wide mb-3 text-lg sm:text-xl">
             HABILIDADES ADICIONAIS
@@ -213,7 +208,6 @@ export default function BioCard({
             ))}
           </div>
         </section>
-
 
         <Events title="Eventos" />
 
