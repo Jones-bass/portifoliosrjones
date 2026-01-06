@@ -12,22 +12,30 @@ interface SkillsProps {
   habilidades: Skill[]
 }
 
-export default function Skills({ habilidades, titleHabilidades }: SkillsProps) {
+export default function Skills({
+  habilidades,
+  titleHabilidades,
+}: SkillsProps) {
   return (
-    <section className="items-center gap-2 rounded-lg border border-zinc-300 px-3 py-4 shadow-sm">
-      <h2 className="font-bold mt-2 text-xl sm:text-2xl md:text-3xl">
+    <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
+      <h2 className="font-semibold tracking-wide mb-4 text-lg sm:text-xl">
         {titleHabilidades}
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-4 py-2">
-        {habilidades.map((skill, index) => (
-          <span
-            key={index}
-            className="flex text-center items-center gap-2 cursor-pointer text-xl sm:text-2xl text-gray-700 hover:text-violet-500"
+      <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+        {habilidades.map((skill) => (
+          <div
+            key={skill.name}
+            className="flex items-center gap-2 text-zinc-400 hover:text-violet-400 transition-colors cursor-pointer"
           >
-            <skill.icon height="thin" aria-label={skill.name} />
-            <p className="text-sm sm:text-lg">{skill.name}</p>
-          </span>
+            <skill.icon
+              className="text-base sm:text-lg"
+              aria-label={skill.name}
+            />
+            <span className="text-sm tracking-wide">
+              {skill.name}
+            </span>
+          </div>
         ))}
       </div>
     </section>

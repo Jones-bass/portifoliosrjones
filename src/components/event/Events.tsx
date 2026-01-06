@@ -4,29 +4,28 @@ import { useState } from 'react'
 import { eventInfo } from '../../utils/eventInfo'
 import { EventCard } from './EventCard'
 
-interface props {
+interface Props {
   title: string
 }
-export default function Events({ title }: props) {
-  const [CardInfoEvents] = useState(eventInfo)
+
+export default function Events({ title }: Props) {
+  const [cardInfoEvents] = useState(eventInfo)
 
   return (
-    <section className="items-center gap-2 rounded-lg border text-zinc-300 border-zinc-300 px-3 shadow-sm">
-      <h2 className="font-bold mt-2 text-xl sm:text-2xl md:text-3xl">
+    <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
+      <h2 className="font-semibold tracking-wide mb-4 text-lg sm:text-xl">
         {title}
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-4">
-        {CardInfoEvents.map((item) => {
-          return (
-            <EventCard
-              key={item.id}
-              nameRepor={item.nameRepor}
-              repor={item.repor}
-              urlRepor={item.urlRepor}
-            />
-          )
-        })}
+      <div className="grid gap-3 md:grid-cols-2">
+        {cardInfoEvents.map((item) => (
+          <EventCard
+            key={item.id}
+            nameRepor={item.nameRepor}
+            repor={item.repor}
+            urlRepor={item.urlRepor}
+          />
+        ))}
       </div>
     </section>
   )

@@ -4,27 +4,32 @@ export const bioInfo = [
     name: 'Jones Souza',
     nameGit: 'Jones-bass',
     nameLinkedin: 'jonessouza',
-    titleDEV: 'DEV JR | FRONT-END | BACK-END',
+    titleDEV: 'FULLSTACK - DADOS JR',
     city: 'Tobias Barreto, SE',
     email: 'jonesbass.tb@gmail.com',
     phone: '79 9 9959-1921',
     description:
-      'Cursando Análise e Desenvolvimento de Sistemas pela Faculdade Estacio, certificados pela Rocketseat, Origamid e a Digital Innovation One, RL System, alguns bootcamp de especialização. Buscando uma experiência de estágio, junior. Meu foco é em Front-End mas me não deixo de estudar Back-End.',
+      'Formado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio, com cursos e certificações pela Rocketseat, Origamid, SQL Impressionador e Xperium, além de participação em bootcamps de especialização técnica. Busco uma oportunidade como Desenvolvedor Full Stack Júnior ou Analista de Dados Júnior, unindo desenvolvimento de aplicações modernas à análise e interpretação de dados para tomada de decisão. Possuo conhecimentos em JavaScript, TypeScript, Angular, ReactJS, e estou em constante evolução na área de dados, com foco em Python, SQL, Power BI e soluções voltadas ao ecossistema TOTVS Moda.',
     education: [
       {
         titleEducation: 'Análise e Desenvolvimento de Sistemas',
         institution: 'Faculdade Estacio',
-        period: '2023 - Cursando',
+        period: 'Concluído',
       },
       {
         titleEducation: 'Desenvolvimento Front - End e Back - End',
         institution: 'Rocketseat',
-        period: '2021 - 2023 - Cursando',
+        period: 'Concluído',
       },
       {
-        titleEducation: 'Desenvolvimento Front - End e Back - End',
-        institution: 'Digital Innovation One - DIO',
-        period: '2021 - 2023 - Cursando',
+        titleEducation: 'Formação em Dados',
+        institution: 'Xperium - SQL Impressionador',
+        period: '2022 - 2025 - Cursando',
+      },
+      {
+        titleEducation: 'Formação em Design',
+        institution: 'Motion Art Pro 2.0 - Tales Ramiro',
+        period: '2024 - 2025 - Cursando',
       },
     ],
     habilidades: [
@@ -43,6 +48,18 @@ export const bioInfo = [
       {
         id: 1,
         habil: '✔ Corel Draw',
+      },
+      {
+        id: 1,
+        habil: '✔ SQL Server',
+      },
+       {
+        id: 1,
+        habil: '✔ Office Avaçado',
+      },
+       {
+        id: 1,
+        habil: '✔ Totvs Moda',
       },
     ],
   },

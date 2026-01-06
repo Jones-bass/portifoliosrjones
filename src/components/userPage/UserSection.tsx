@@ -16,10 +16,10 @@ export function UserSection() {
       <Info
         UserName={'Jones Souza'}
         Estudent={'Desenvolvedor FullStack Junior'}
-        description={`Cursando Análise e Desenvolvimento de Sistemas na Faculdade Estacio, 
-        certificado pela Rocketseat, Origamid e a Digital Innovation One, participando de alguns bootcamp de especialização técnicas.
-        Buscando uma experiência de estágio ou desenvolvedor JR. com foco em Front-End.
-        Experiência com tecnologias: HTML, CSS, Javascript, Typescript, Angular, ReactJS, TailwindCSS e NodeJS.`}
+        description={`Formado em Análise e Desenvolvimento de Sistemas pela Faculdade Estácio, com cursos e certificações pela Rocketseat, Origamid, SQL Impressionador e Xperium, além de participação em bootcamps de especialização técnica.
+Busco uma oportunidade como Desenvolvedor Full Stack Júnior ou Analista de Dados Júnior, unindo desenvolvimento de aplicações modernas à análise e interpretação de dados para tomada de decisão.
+Possuo conhecimentos em JavaScript, TypeScript, Angular, ReactJS, e estou em constante evolução na área de dados, com foco em Python, SQL, Power BI e soluções voltadas ao ecossistema TOTVS Moda.
+`}
       />
     </motion.section>
   )
