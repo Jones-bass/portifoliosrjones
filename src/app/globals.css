@@ -5,7 +5,7 @@
 /* Estilizando a barra de rolagem */
 .custom-scrollbar {
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #1E293B #d1d5db; /* Firefox */
+  scrollbar-color: #1e293b #d1d5db; /* Firefox */
 }
 
 /* Estilos para navegadores WebKit (Chrome, Safari) */
@@ -19,12 +19,12 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #1E293B;
+  background-color: #1e293b;
   border-radius: 10px;
   border: 3px solid #d1d5db;
 }
 
 /* Adicionando efeito ao passar o mouse sobre a barra de rolagem */
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #1E293B;
+  background-color: #1e293b;
 }

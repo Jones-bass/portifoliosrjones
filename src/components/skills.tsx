@@ -12,10 +12,7 @@ interface SkillsProps {
   habilidades: Skill[]
 }
 
-export default function Skills({
-  habilidades,
-  titleHabilidades,
-}: SkillsProps) {
+export default function Skills({ habilidades, titleHabilidades }: SkillsProps) {
   return (
     <section className="rounded-lg border border-zinc-700 px-3 py-4 shadow-sm">
       <h2 className="font-semibold tracking-wide mb-4 text-lg sm:text-xl">
@@ -32,9 +29,7 @@ export default function Skills({
               className="text-base sm:text-lg"
               aria-label={skill.name}
             />
-            <span className="text-sm tracking-wide">
-              {skill.name}
-            </span>
+            <span className="text-sm tracking-wide">{skill.name}</span>
           </div>
         ))}
       </div>

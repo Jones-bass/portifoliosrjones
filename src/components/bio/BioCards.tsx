@@ -88,9 +88,7 @@ export default function BioCard({
               <h1 className="text-2xl sm:text-3xl font-semibold tracking-wide">
                 {name}
               </h1>
-              <h3 className="text-zinc-400 text-base sm:text-lg">
-                {titleDEV}
-              </h3>
+              <h3 className="text-zinc-400 text-base sm:text-lg">{titleDEV}</h3>
             </div>
 
             <div className="grid gap-3 text-zinc-400">
