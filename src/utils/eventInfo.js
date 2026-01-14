@@ -23,4 +23,4 @@ export const eventInfo = [
     nameRepor: 'heatdowhile',
     repor: 'Repositorio',
   },
-];
+]
